@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+main {
+    position: relative;
+}
+header {
+    position: absolute;
+    top: 0;
+    opacity: 100%;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#hero {
+    background-color: #E9E9E9;
+    height: 70vh;
+    padding: 0 6rem;
+}
+#placeholder {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+}
+nav > ul {
+    display: flex;
+    gap: 32px;
+}
+nav > ul > li {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 0;
+}
+nav > ul > li:first-child > a {
+    color: #0DC9C6;
+}

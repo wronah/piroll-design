@@ -31,7 +31,7 @@ header {
     align-items: center;
 }
 #description {
-    width: 30%;
+    width: 35%;
     margin-right: 2rem;
 }
 #description > p {
@@ -40,7 +40,7 @@ header {
     line-height: 1.75rem;
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 1.5rem 0;
 }
 #contact {
@@ -81,13 +81,49 @@ h1 {
     line-height: 1.75rem;
     color: #787878;
 }
-#about > h2 {
-    font-size: 2rem;
+h2 {
+    font-size: 2.5rem;
 }
-
+#work {
+    height: 60vh;
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.progress-bar-with-title {
+    padding: 1.5rem 0;
+    flex-direction: column;
+}
+.progress-bar-with-title > h3 {
+    padding: 1rem 0;
+}
+.progress-bar {
+    width: 750px;
+    height: 6px;
+    background-color: #D8D8D8;
+}
+#ui-progress {
+    width: 562.5px;
+    height: inherit;
+    background-color: #0DC9C6;
+}
+#webdev-progress {
+    width: 675px;
+    height: inherit;
+    background-color: #0DC9C6;
+}
+#marketing-progress {
+    width: 487.5px;
+    height: inherit;
+    background-color: #0DC9C6;
+}
+h3 > span {
+    margin-left: 16px;
+}
 nav > ul {
     display: flex;
-    gap: 32px;
+    gap: 24px;
 }
 nav > ul > li {
     list-style-type: none;

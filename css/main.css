@@ -87,34 +87,43 @@ h2 {
 #work {
     height: 60vh;
     background-color: #E9E9E9;
+    padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+#work-content {
+    padding: 0 6rem;
+    width: 50%;
+    height: 100%;
+    background-color: #F8F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .progress-bar-with-title {
     padding: 1.5rem 0;
-    flex-direction: column;
 }
 .progress-bar-with-title > h3 {
     padding: 1rem 0;
 }
 .progress-bar {
-    width: 750px;
+    width: 100%;
     height: 6px;
     background-color: #D8D8D8;
 }
 #ui-progress {
-    width: 562.5px;
+    width: 75%;
     height: inherit;
     background-color: #0DC9C6;
 }
 #webdev-progress {
-    width: 675px;
+    width: 90%;
     height: inherit;
     background-color: #0DC9C6;
 }
 #marketing-progress {
-    width: 487.5px;
+    width: 65%;
     height: inherit;
     background-color: #0DC9C6;
 }

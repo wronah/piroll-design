@@ -7,16 +7,11 @@
 main {
     position: relative;
 }
-main > * {
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
 header {
     position: absolute;
     top: 0;
     opacity: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,11 +27,11 @@ header {
 }
 #description {
     width: 35%;
-    margin-right: 2rem;
+    padding-right: 8rem;
 }
 #description > p {
     color: #787878;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     line-height: 1.75rem;
 }
 h1 {
@@ -54,7 +49,7 @@ h1 {
     font-weight: 600;
     letter-spacing: 1px;
 }
-#logo-placeholder {
+#placeholder {
     height: 50px;
     width: 50px;
     background-color: red;
@@ -71,7 +66,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6rem;
+    padding: 6rem 8rem;
 }
 #about > p {
     width: 42%;
@@ -92,8 +87,8 @@ h2 {
     flex-direction: row;
     align-items: center;
 }
-#work-content {
-    padding: 0 6rem;
+#work-wrapper {
+    padding: 0 8rem;
     width: 50%;
     height: 100%;
     background-color: #F8F9F9;
@@ -126,6 +121,28 @@ h2 {
     width: 65%;
     height: inherit;
     background-color: #0DC9C6;
+}
+#statistics {
+    height: 25vh;
+    padding: 2rem 8rem;
+    background-color: #0DC9C6;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.statistic {
+    display: flex;
+    gap: 32px;
+    width: 100%
+}
+.statistic-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.statistic-details-wrapper > h3, .statistic-details-wrapper > h5 {
+    letter-spacing: 1px;
+    color: #fff;
 }
 h3 > span {
     margin-left: 16px;

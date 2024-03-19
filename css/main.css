@@ -144,6 +144,19 @@ h2 {
     letter-spacing: 1px;
     color: #fff;
 }
+#showcase {
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture {
+    height: 30vh;
+    background-color: #E9E9E9;
+    width: 25%;
+}
+.picture:nth-child(odd) {
+    background-color: #787878;
+}
 h3 > span {
     margin-left: 16px;
 }

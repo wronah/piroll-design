@@ -49,7 +49,7 @@ h1 {
     font-weight: 600;
     letter-spacing: 1px;
 }
-#placeholder {
+.placeholder {
     height: 50px;
     width: 50px;
     background-color: red;
@@ -154,8 +154,21 @@ h2 {
     background-color: #E9E9E9;
     width: 25%;
 }
-.picture:nth-child(odd) {
+.picture:nth-child(3n), .picture:first-child, .picture:last-child {
     background-color: #787878;
+}
+.picture-hover-effect {
+    width: 100%;
+    height: 100%;
+    background-color: #252525;
+    opacity: 0;
+    transition: opacity 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture-hover-effect:hover {
+    opacity: 100;
 }
 h3 > span {
     margin-left: 16px;

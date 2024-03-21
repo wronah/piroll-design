@@ -170,6 +170,15 @@ h2 {
 .picture-hover-effect:hover {
     opacity: 100;
 }
+#load-more-work {
+    height: 12vh;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #8F8F8F;
+}
 h3 > span {
     margin-left: 16px;
 }

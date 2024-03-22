@@ -145,7 +145,6 @@ h2 {
     color: #fff;
 }
 #showcase {
-    height: 60vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -154,7 +153,7 @@ h2 {
     background-color: #E9E9E9;
     width: 25%;
 }
-.picture:nth-child(3n), .picture:first-child, .picture:last-child {
+.picture:nth-child(3n), .picture:first-child, .picture:nth-child(8) {
     background-color: #787878;
 }
 .picture-hover-effect {
@@ -178,6 +177,7 @@ h2 {
     align-items: center;
     cursor: pointer;
     color: #8F8F8F;
+    width: 100%;
 }
 h3 > span {
     margin-left: 16px;

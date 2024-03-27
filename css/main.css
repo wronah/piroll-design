@@ -254,6 +254,22 @@ h3 > span {
 .service > .placeholder {
   margin-bottom: 1rem;
 }
+#quotes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 12rem 8rem;
+  height: 50vh;
+  background-color: #0dc9c6;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+#quotes > p {
+  font-size: 2rem;
+  width: 60%;
+}
 nav > ul {
   display: flex;
   gap: 24px;

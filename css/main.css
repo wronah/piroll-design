@@ -272,15 +272,15 @@ h3 > span {
   gap: 16px;
 }
 .slide {
-  width: 16px;
-  height: 16px;
+  width: 8px;
+  height: 8px;
   background-color: #d3d3d3;
   border-radius: 100%;
 }
 .active-slide {
   background-color: white;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
 }
 .quote-wrapper {
   display: flex;
@@ -294,6 +294,12 @@ h3 > span {
 #quotes > div > p {
   font-size: 2rem;
   width: 60%;
+}
+#partners {
+  padding: 4rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 nav > ul {
   display: flex;

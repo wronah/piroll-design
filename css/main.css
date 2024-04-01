@@ -27,14 +27,14 @@ header {
 }
 #hero {
   background-color: var(--background);
-  height: 75vh;
+  height: 95vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
 #description {
-  width: 35%;
+  width: 50%;
   padding-right: 8rem;
 }
 #description > p {
@@ -70,7 +70,6 @@ h1 {
   color: white;
 }
 #about {
-  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,7 +87,6 @@ h2 {
   font-size: 2.5rem;
 }
 #work {
-  height: 60vh;
   background-color: var(--background);
   padding: 0;
   display: flex;
@@ -96,7 +94,7 @@ h2 {
   align-items: center;
 }
 #work-wrapper {
-  padding: 0 8rem;
+  padding: 8rem;
   width: 50%;
   height: 100%;
   background-color: var(--primary);
@@ -112,7 +110,7 @@ h2 {
 }
 .progress-bar {
   width: 100%;
-  height: 6px;
+  height: 0.25rem;
   background-color: var(--background);
 }
 #ui-progress {
@@ -131,12 +129,11 @@ h2 {
   background-color: var(--accent);
 }
 #statistics {
-  height: 25vh;
-  padding: 2rem 8rem;
+  padding: 8rem;
   background-color: var(--accent);
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 2rem;
 }
 .statistic {
   display: flex;
@@ -158,12 +155,12 @@ h2 {
   flex-wrap: wrap;
 }
 .picture {
-  height: 30vh;
+  height: 40vh;
   background-color: var(--background);
   width: 25%;
 }
-.picture:nth-child(5n+1),
-.picture:nth-child(5n+3) {
+.picture:nth-child(5n + 1),
+.picture:nth-child(5n + 3) {
   background-color: var(--text);
 }
 .picture-hover-effect {
@@ -178,9 +175,10 @@ h2 {
 }
 .picture-hover-effect:hover {
   opacity: 100;
+  cursor: pointer;
 }
 #load-more-work {
-  height: 12vh;
+  padding: 3.5rem;
   background-color: var(--primary);
   display: flex;
   justify-content: center;
@@ -190,7 +188,6 @@ h2 {
   width: 100%;
 }
 #process {
-  height: 100vh;
   padding: 6rem 8rem;
   display: flex;
   flex-direction: column;
@@ -221,8 +218,8 @@ video {
   padding: 1rem;
   border-radius: 100px;
   color: white;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -238,11 +235,10 @@ video {
   display: block;
 }
 h3 > span {
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 #services {
   display: flex;
-  height: 50vh;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
@@ -258,18 +254,21 @@ h3 > span {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .service > .placeholder {
   margin-bottom: 1rem;
 }
 #quotes {
-  padding: 12rem 8rem 4rem 8rem;
-  height: 60vh;
+  padding: 12rem 8rem 2rem 8rem;
+  letter-spacing: 1px;
   background-color: var(--accent);
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 6rem;
 }
 #slides {
   display: flex;
@@ -277,31 +276,31 @@ h3 > span {
   width: 100%;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 0.5rem;
 }
 .slide {
-  width: 8px;
-  height: 8px;
+  width: 0.375rem;
+  height: 0.375rem;
   background-color: #dddddd;
   border-radius: 100%;
 }
 .active-slide {
   background-color: white;
-  width: 16px;
-  height: 16px;
+  width: 0.625rem;
+  height: 0.625rem;
 }
 .quote-wrapper {
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
   align-items: center;
   gap: 64px;
   width: 100%;
 }
-#quotes > div > p {
-  font-size: 2rem;
-  width: 60%;
+.quote-wrapper > blockquote {
+  text-align: center;
+  font-size: 1.75rem;
+  width: 75%;
 }
 #partners {
   padding: 4rem 12rem;

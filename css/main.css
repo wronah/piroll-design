@@ -16,7 +16,7 @@ main {
   position: relative;
 }
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   opacity: 100%;
   padding: 2rem 8rem;
@@ -24,8 +24,6 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: var(--background);
-  z-index: 10000;
 }
 #hero {
   background-color: var(--background);

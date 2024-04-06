@@ -333,3 +333,55 @@ h3 > span {
   align-items: center;
   justify-content: space-between;
 }
+#need-a-project {
+  background-color: var(--primary);
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+}
+.need-a-project-wrapper > p {
+  color: var(--text);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.need-a-project-wrapper > h2 {
+  margin-bottom: 1.5rem;
+}
+.need-a-project-wrapper input[type="text"],
+.need-a-project-wrapper textarea {
+  background-color: var(--secondary);
+  border: none;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.need-a-project-wrapper > form > input[type="text"],
+.need-a-project-wrapper > form > textarea {
+  width: 100%;
+}
+.first-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.first-row > input {
+  width: 48%;
+}
+.need-a-project-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.need-a-project-wrapper > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.need-a-project-wrapper > form > input[type="submit"] {
+  border: none;
+  background-color: #0dc9c6;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 0.75rem;
+}

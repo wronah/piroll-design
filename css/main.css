@@ -385,3 +385,23 @@ h3 > span {
   padding: 1rem 2rem;
   font-size: 0.75rem;
 }
+footer {
+  background-color: #141414;
+  padding: 6rem 8rem;
+  color: #bcbcbc;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-wrapper > h4 {
+  color: white;
+  margin-bottom: 2rem;
+}
+footer li {
+  list-style-type: none;
+}
+footer a {
+  color: #bcbcbc;
+}
+.links {
+  display: flex;
+}

@@ -9,7 +9,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
 main {
@@ -59,6 +59,7 @@ nav > ul > li:first-child > a {
   font-size: 1.125rem;
   line-height: 1.75rem;
   padding: 1.5rem 0;
+  font-family: "Nunito Sans", sans-serif;
 }
 h1 {
   font-size: 2.375rem;
@@ -98,6 +99,7 @@ h1 {
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: var(--text);
+  font-family: "Nunito Sans", sans-serif;
 }
 h2 {
   font-size: 1.875rem;
@@ -222,6 +224,7 @@ h4 {
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: var(--text);
+  font-family: "Nunito Sans", sans-serif;
 }
 .video-wrapper {
   position: relative;
@@ -275,6 +278,7 @@ h3 > span {
   gap: 16px;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  font-family: "Nunito Sans", sans-serif;
 }
 .service > h4 {
   font-weight: 800;
@@ -343,6 +347,7 @@ h3 > span {
   color: var(--text);
   margin-bottom: 1.5rem;
   text-align: center;
+  font-family: "Nunito Sans", sans-serif;
 }
 .need-a-project-wrapper > h2 {
   margin-bottom: 1.5rem;
@@ -401,6 +406,10 @@ footer li {
 }
 footer a {
   color: #bcbcbc;
+  font-family: "Nunito Sans", sans-serif;
+}
+footer p {
+  font-family: "Nunito Sans", sans-serif;
 }
 .links {
   display: flex;

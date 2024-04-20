@@ -178,17 +178,13 @@ h4 {
 }
 .picture {
   height: 40vh;
-  background-color: var(--background);
+  background-image: url(https://picsum.photos/1920/1080);
   width: 25%;
-}
-.picture:nth-child(5n + 1),
-.picture:nth-child(5n + 3) {
-  background-color: var(--text);
 }
 .picture-hover-effect {
   width: 100%;
   height: 100%;
-  background-color: #252525;
+  background-color: #25252599;
   opacity: 0;
   transition: opacity 1.5s;
   display: flex;

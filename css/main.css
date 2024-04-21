@@ -43,7 +43,10 @@ nav > ul > li:first-child > a {
   color: var(--accent);
 }
 #hero {
-  background-color: var(--background);
+  background-image: url(../img/hero-bg.jpg);
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  background-color: #D4DDE0;
   height: 95vh;
   display: flex;
   flex-direction: row;

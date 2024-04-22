@@ -83,12 +83,6 @@ h1 {
   background-color: red;
   color: white;
 }
-#signature-placeholder {
-  height: 85px;
-  width: 250px;
-  background-color: red;
-  color: white;
-}
 #about {
   display: flex;
   flex-direction: column;

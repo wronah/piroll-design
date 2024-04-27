@@ -44,7 +44,8 @@ nav > ul > li:first-child > a {
 }
 #hero {
   background-image: url(../img/hero-bg.jpg);
-  background-size: 80% 100%;
+  background-size: 80%;
+  background-position: left bottom;
   background-repeat: no-repeat;
   height: 95vh;
   display: flex;
@@ -53,7 +54,7 @@ nav > ul > li:first-child > a {
   align-items: center;
 }
 .hero-wrapper {
-  background-image:  linear-gradient(#D4DDE0, #b0b9be);
+  background-image: linear-gradient(#d4dde0, #b0b9be);
 }
 #description {
   width: 35%;

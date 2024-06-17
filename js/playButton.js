@@ -1,14 +1,15 @@
-const playButton = document.getElementById("play-button");
-const video = document.getElementById("video");
+const playButton = document.querySelector("#play-button");
+const video = document.querySelector("#video");
 
-playButton.addEventListener("click", function() {
-  if (video.paused == true) {
+playButton.addEventListener("click", () => {
+  if (video.paused == true) 
+  {
     video.play();
-
     playButton.innerHTML = "||";
-  } else {
+  } 
+  else 
+  {
     video.pause();
-
     playButton.innerHTML = "►";
   }
 });

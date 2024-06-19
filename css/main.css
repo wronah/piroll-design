@@ -419,4 +419,10 @@ footer p {
     width: 100%;
     padding: 0 2rem;
   } 
+  #about {
+    padding: 4rem 2rem;
+  }
+  .sub-heading-center {
+    width: 100%;
+  }
 }

@@ -15,6 +15,9 @@
 body {
   position: relative;
 }
+
+
+
 header {
   position: absolute;
   top: 0;
@@ -52,6 +55,7 @@ nav > ul > li:first-child > a {
   width: 50%;
   text-align: center;
 }
+
 #hero {
   background-image: url(../img/hero-bg.jpg);
   background-size: 80%;
@@ -401,4 +405,18 @@ footer p {
 }
 .links {
   display: flex;
+}
+
+
+@media (max-width: 768px){
+  #hero {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  #description {
+    text-align: center;
+    width: 100%;
+    padding: 0 2rem;
+  } 
 }

@@ -16,8 +16,6 @@ body {
   position: relative;
 }
 
-
-
 header {
   position: absolute;
   top: 0;
@@ -112,9 +110,6 @@ h4 {
   font-weight: 600;
 }
 #work {
-  background-image: url(https://picsum.photos/1920/1080);
-  background-size: 50% 100%;
-  background-position: right; 
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -131,6 +126,11 @@ h4 {
 }
 .progress-bar-with-title {
   padding: 1.5rem 0;
+}
+#work-photo {
+  align-self: stretch;
+  background-image: url(https://picsum.photos/1920/1080);
+  width: 50%;
 }
 
 .progress-bar {
@@ -163,6 +163,7 @@ h4 {
 }
 .statistic {
   display: flex;
+  align-items: center;
   gap: 32px;
   width: 100%;
 }
@@ -406,6 +407,11 @@ footer p {
 .links {
   display: flex;
 }
+.icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
 
 
 @media (max-width: 768px){
@@ -428,12 +434,18 @@ footer p {
   #work {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-position: bottom;
-    background-size: 100% 50%;
+  }
+  #work-photo {
+    width: 100%;
+    min-height: 420px;
   }
   #work-wrapper {
     width: 100%;
     padding: 4rem 2rem;
+  }
+  #statistics {
+    padding: 4rem 4rem;
+    flex-direction: column;
+    justify-content: center;
   }
 }

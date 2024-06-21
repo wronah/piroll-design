@@ -451,4 +451,7 @@ footer p {
   .picture {
     width: 100%;
   }
+  #process {
+    padding: 4rem 2rem;
+  }
 }

@@ -454,4 +454,11 @@ footer p {
   #process {
     padding: 4rem 2rem;
   }
+  #services {
+    padding: 2rem 2rem;
+    flex-direction: column;
+  }
+  .service {
+    width: 100%;
+  }
 }

@@ -464,4 +464,8 @@ footer p {
   #quotes {
     padding: 4rem 2rem;
   }
+  #partners {
+    flex-direction: column;
+    gap: 4rem;
+  }
 }

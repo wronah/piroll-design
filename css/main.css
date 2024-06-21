@@ -461,4 +461,7 @@ footer p {
   .service {
     width: 100%;
   }
+  #quotes {
+    padding: 4rem 2rem;
+  }
 }

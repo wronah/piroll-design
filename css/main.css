@@ -468,4 +468,22 @@ footer p {
     flex-direction: column;
     gap: 4rem;
   }
+  #need-a-project {
+    padding: 4rem 2rem;
+  }
+  .need-a-project-wrapper {
+    width: 100%;
+  }
+  .need-a-project-wrapper > * {
+    width: 100%;
+  }
+  .need-a-project-wrapper > h2 {
+    text-align: center;
+  }
+  .first-row {
+    flex-direction: column;
+  }
+  .first-row > input {
+    width: 100%;
+  }
 }

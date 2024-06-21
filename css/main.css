@@ -448,4 +448,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
   }
+  .picture {
+    width: 100%;
+  }
 }

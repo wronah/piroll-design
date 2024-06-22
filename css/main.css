@@ -407,10 +407,6 @@ footer a {
 footer p {
   font-family: "Nunito Sans", sans-serif;
 }
-.links-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
 .links {
   display: flex;
   gap: 5rem;
@@ -419,9 +415,6 @@ footer p {
   width: 40px;
   height: 40px;
   display: block;
-}
-.socials {
-  margin-left: 8rem;
 }
 
 
@@ -501,8 +494,5 @@ footer p {
     flex-direction: column;
     gap: 2rem;
     padding: 4rem 2rem;
-  }
-  .socials {
-    margin-left: 5rem;
   }
 }

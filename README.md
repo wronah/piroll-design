@@ -4,7 +4,8 @@ This is a repository for a class final-project at WSEI. (HTML CSS, JS? basics)
 
 ## Features
 - [x] Desktop version
+- [ ] Tablet version | __IN PROGRESS__ |
 - [ ] Mobile version | __IN PROGRESS__ |
 
 ## Final grade
-I managed to get X as my final grade.
+I managed to get 5.0 as my final grade.

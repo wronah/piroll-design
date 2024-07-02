@@ -1,5 +1,6 @@
 # University project
-This is a repository for a class final-project at WSEI. (HTML CSS, JS? basics)    
+This is a repository for a class final-project at WSEI. (HTML, CSS, JS)
+Implementing design working with a .psd design file.    
 <a>https://wronah.github.io/technologie-webowe-projekt-zaliczeniowy/</a> 
 
 ## Features

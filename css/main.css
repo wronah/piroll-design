@@ -470,6 +470,7 @@ footer p {
   }
   #partners {
     flex-direction: column;
+    align-items: center;
     gap: 4rem;
   }
   #need-a-project {

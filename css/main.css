@@ -256,6 +256,7 @@ h4 {
 .video-wrapper {
   position: relative;
   width: 100%;
+  max-width: 75%;
   height: 70%;
 }
 video {

@@ -1,7 +1,6 @@
 # University project
 This is a repository for a class final-project at WSEI. (HTML, CSS, JS)      
 Implemented design => worked with a .psd file    
-<a>wronah.github.io/piroll-design/</a> 
 
 ## Features
 - [x] Desktop version

@@ -445,13 +445,14 @@ footer p {
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
   header {
     padding: 2rem 2rem;
   }
   #hero {
     flex-direction: column;
     justify-content: center;
+    text-shadow: #fff 0px 0px 10px;
     width: 100%;
   }
   #description {
@@ -502,6 +503,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+    padding: 2rem 0;
   }
   #need-a-project {
     padding: 4rem 2rem;

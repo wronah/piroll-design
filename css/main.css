@@ -59,8 +59,7 @@ nav > ul > li:first-child > a {
 
 #hero {
   background-image: url(../img/hero-bg.jpg);
-  background-size: 80%;
-  background-position: left bottom;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
   display: flex;
@@ -132,7 +131,9 @@ h4 {
 }
 #work-photo {
   align-self: stretch;
-  background-image: url(https://picsum.photos/1920/1080);
+  background-image: url(../img/skills.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 50%;
 }
 
@@ -186,9 +187,35 @@ h4 {
   flex-wrap: wrap;
 }
 .picture {
-  height: 40vh;
-  background-image: url(https://picsum.photos/1920/1080);
+  height: 25vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 25%;
+}
+.picture:nth-child(1) {
+  background-image: url(../img/showcase-8.jpg);
+}
+.picture:nth-child(2) {
+  background-image: url(../img/showcase-3.jpg);
+}
+.picture:nth-child(3) {
+  background-image: url(../img/showcase-5.jpg);
+}
+.picture:nth-child(4) {
+  background-image: url(../img/showcase-7.jpg);
+}
+.picture:nth-child(5) {
+  background-image: url(../img/showcase-2.jpg);
+}
+.picture:nth-child(6) {
+  background-image: url(../img/showcase-6.jpg);
+}
+.picture:nth-child(7) {
+  background-image: url(../img/showcase-1.jpg);
+}
+.picture:nth-child(8) {
+  background-image: url(../img/showcase-4.jpg);
 }
 .picture-hover-effect {
   width: 100%;
@@ -498,5 +525,11 @@ footer p {
     flex-direction: column;
     gap: 2rem;
     padding: 4rem 2rem;
+  }
+  .picture {
+    height: 100vw;
+  }
+  .picture-hover-effect {
+    height: 100vw;
   }
 }

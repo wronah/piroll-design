@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/burger-menu.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +21,24 @@
     <header>
       <img src="img/logo.png" alt="logo" />
       <nav>
-        <ul>
+        <ul class="desktop-menu">
+          <li><a href="#hero">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#process">PROCESS</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#quotes">TESTIMONIALS</a></li>
+          <li><a href="#need-a-project">CONTACT</a></li>
+        </ul>
+      </nav>
+      <nav class="burger-menu">
+        <input type="checkbox" id="burger-toggle" class="burger-toggle" />
+        <label for="burger-toggle" class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu">
           <li><a href="#hero">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#work">WORK</a></li>

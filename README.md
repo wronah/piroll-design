@@ -5,8 +5,7 @@ Implemented design => worked with a .psd file
 
 ## Features
 - [x] Desktop version
-- [ ] Tablet version | __IN PROGRESS__ |
-- [ ] Mobile version | __IN PROGRESS__ |
+- [x] Mobile version | __IN PROGRESS__ |
 
 ## Final grade
 I managed to get 5.0 as my final grade.

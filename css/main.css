@@ -60,6 +60,7 @@ nav > ul > li:first-child > a {
 #hero {
   background-image: url(../img/hero-bg.jpg);
   background-size: cover;
+  background-position: left center;
   background-repeat: no-repeat;
   height: 95vh;
   display: flex;

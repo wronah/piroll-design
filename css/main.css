@@ -66,6 +66,7 @@ nav > ul > li:first-child > a {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  text-shadow: #fff 0px 0px 10px;
 }
 .hero-wrapper {
   background-image: linear-gradient(#d4dde0, #b0b9be);
@@ -452,7 +453,6 @@ footer p {
   #hero {
     flex-direction: column;
     justify-content: center;
-    text-shadow: #fff 0px 0px 10px;
     width: 100%;
   }
   #description {
